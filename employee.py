@@ -55,4 +55,4 @@ def get_pay(Employee):
 employees = [billie, charlie, renee, jan, robbie, ariel]
 
 for Employee in employees:
-    pay = get_pay(employee)
+    pay = get_pay(Employee)
