@@ -32,7 +32,7 @@ ariel = Employee('Ariel')
 
 def get_pay(Employee):
     pay = 0
-    match Employee:
+    match Employee.name:
         case "billie":
             pay = 4000
             print("Billie works on a monthly salary of 4000.  Their total pay is 4000.")
@@ -53,3 +53,14 @@ def get_pay(Employee):
             print("Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.")
 
 
+billie = Employee('Billie')
+charlie = Employee('Charlie')
+renee = Employee('Renee')
+jan = Employee('Jan')
+robbie = Employee('Robbie')
+ariel = Employee('Ariel')
+
+employees = [billie, charlie, renee, jan, robbie, ariel]
+
+for employee in employees:
+    pay = get_pay(employee)
