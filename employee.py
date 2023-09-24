@@ -52,15 +52,7 @@ def get_pay(Employee):
             pay = (120*30) + 600
             print("Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.")
 
-
-billie = Employee('Billie')
-charlie = Employee('Charlie')
-renee = Employee('Renee')
-jan = Employee('Jan')
-robbie = Employee('Robbie')
-ariel = Employee('Ariel')
-
 employees = [billie, charlie, renee, jan, robbie, ariel]
 
-for employee in employees:
+for Employee in employees:
     pay = get_pay(employee)
