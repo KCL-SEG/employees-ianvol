@@ -40,7 +40,7 @@ def get_pay(Employee):
             pay = 100 * 25
             print("Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.")
         case "Renee":
-            pay = 3000 + 4(200)
+            pay = 3000 + (4*200)
             print("Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.")
         case "Jan":
             pay = (150*25) + (3*220)
