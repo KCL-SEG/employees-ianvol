@@ -86,7 +86,7 @@ class HourlyWithContractCommissionEmployee:
 billie = SalaryWithoutCommissionEmployee('Billie', 4000)
 charlie = HourlyWithoutCommissionEmployee('Charlie', 25, 100)
 renee = SalaryWithContractCommissionEmployee('Renee', 3000, 200, 4)
-jan = HourlyWithContractCommissionEmployee('Jan', 25, 150, 3, 220)
+jan = HourlyWithContractCommissionEmployee('Jan', 25, 150, 220, 3)
 robbie = SalaryWithBonusCommissionEmployee('Robbie', 2000, 1500)
 ariel = HourlyWithBonusCommissionEmployee('Ariel', 30, 120, 600)
 
